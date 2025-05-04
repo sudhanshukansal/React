@@ -1,0 +1,35 @@
+package.json is a configuaration of NPM, it is a JSOn structure. it keep to track , what package version install our system
+two type of dependencies 
+1. devdependencies
+2. normal dependencies ( used for production)
+^ ~ version prefix
+  if you regenerate any thing dont push on git(like NPM)
+
+  npm means install the package and then execute
+  npx if you want execute the package use npx command
+
+   dont use Cdn link to use react or react-dom..?
+   1.every start server , call api ,
+    2. Every react version change(18,19like that) we use to change the CDN link that time.
+  
+  npm install react ( react package install)
+  npm install or (i) react-dom ( install react-dom package)
+
+
+  #parcel
+    --dev server
+    --Local server
+    --HMR = hot module replacement
+    --File watching algorithm - writeen in c++
+    --parcel-Caching - Faster builds
+    --Image Optimization
+    --Minification
+    --Bundling
+    --Compress the file 
+    -- consistent hashing
+    --code splitting
+    -- Differential Bundling -  support older browsers
+    -- Error handling  
+    --Tree shaking - removed unused code 
+
+    browserList
