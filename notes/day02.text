@@ -33,3 +33,36 @@ two type of dependencies
     --Tree shaking - removed unused code 
 
     browserList
+
+    what is a react element
+    ans: equalent to Dom element
+    pass of three argument 
+    1. element
+    2. object which is goes to attribute 
+3. what are the children of this heading
+
+this is a react element
+EOD react element is an object ( it create object behind the scene)
+when we render this element into DOM , it become a HTML got it
+
+
+reactDom replace everything that is inside the root with whatever i am sending through the render
+
+JSX (is a javascript syntax to easier to create react element )
+JSX and react both are seperate we can make our react app without JSX
+JSx is not HTML in js
+html , jsx , js , react all are Different
+JSx ia just a syntax
+
+create a react element with core syntax
+const heading = React.createElement("h1", { id: "heading" }, "Namastey react");
+
+ babel ( it is a package , its a javascript compiper)
+
+ JSx converted into react.createelement by babel
+
+ extension
+ better comment
+ Eslint
+ prettier - code format
+ bracket pair colorization
